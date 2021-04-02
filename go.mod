@@ -1,7 +1,11 @@
-module Gee-Cache-v2
+module example
 
 go 1.15
 
-require gcache v0.0.0 // indirect
+require (
+	geecache v0.0.0
+)
 
-replace gcache => ./gcache
+replace (
+	geecache => ./geecache
+)
